@@ -4,75 +4,139 @@ export default function App() {
   return (
     <div
       style={{
-        background: "#050816",
+        background: "#020617",
         color: "white",
         minHeight: "100vh",
-        fontFamily: "Arial",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontFamily: "Arial, sans-serif",
         padding: "40px",
       }}
     >
-      <h1
-        style={{
-          fontSize: "48px",
-          fontWeight: "bold",
-          marginBottom: "20px",
-        }}
-      >
-        RADAR OIL
-      </h1>
-
       <div
         style={{
-          background: "#111827",
-          padding: "30px",
-          borderRadius: "20px",
-          maxWidth: "700px",
+          maxWidth: "900px",
+          width: "100%",
+          textAlign: "center",
         }}
       >
-        <h2 style={{ fontSize: "28px", marginBottom: "15px" }}>
-          Radar Oil Daily
+        <div
+          style={{
+            marginBottom: "30px",
+          }}
+        >
+          <h1
+            style={{
+              fontSize: "72px",
+              margin: "0",
+              fontWeight: "800",
+              letterSpacing: "4px",
+            }}
+          >
+            RADAR OIL
+          </h1>
+
+          <div
+            style={{
+              width: "120px",
+              height: "4px",
+              background: "#2563EB",
+              margin: "20px auto",
+              borderRadius: "20px",
+            }}
+          />
+        </div>
+
+        <h2
+          style={{
+            fontSize: "34px",
+            fontWeight: "300",
+            marginBottom: "25px",
+            color: "#CBD5E1",
+          }}
+        >
+          Inteligencia energética para estaciones de servicio
         </h2>
 
-        <p style={{ fontSize: "18px", color: "#9CA3AF" }}>
-          Plataforma profesional de análisis energético para estaciones de
-          servicio.
+        <p
+          style={{
+            fontSize: "20px",
+            lineHeight: "1.8",
+            color: "#94A3B8",
+            maxWidth: "760px",
+            margin: "0 auto",
+          }}
+        >
+          Plataforma profesional de análisis del mercado energético orientada
+          al sector de estaciones de servicio y operadores independientes.
         </p>
 
         <div
           style={{
-            marginTop: "30px",
-            display: "grid",
-            gap: "15px",
+            marginTop: "60px",
+            display: "flex",
+            justifyContent: "center",
+            gap: "20px",
+            flexWrap: "wrap",
           }}
         >
           <div
             style={{
-              background: "#1F2937",
-              padding: "20px",
-              borderRadius: "12px",
+              background: "#0F172A",
+              padding: "24px 32px",
+              borderRadius: "18px",
+              border: "1px solid #1E293B",
+              minWidth: "220px",
             }}
           >
-            Gasoil Londres: +12 €/m³
+            <div
+              style={{
+                fontSize: "14px",
+                color: "#64748B",
+                marginBottom: "8px",
+              }}
+            >
+              ESTADO
+            </div>
+
+            <div
+              style={{
+                fontSize: "22px",
+                fontWeight: "700",
+              }}
+            >
+              Plataforma en desarrollo
+            </div>
           </div>
 
           <div
             style={{
-              background: "#1F2937",
-              padding: "20px",
-              borderRadius: "12px",
+              background: "#0F172A",
+              padding: "24px 32px",
+              borderRadius: "18px",
+              border: "1px solid #1E293B",
+              minWidth: "220px",
             }}
           >
-            Brent: +1.24%
-          </div>
+            <div
+              style={{
+                fontSize: "14px",
+                color: "#64748B",
+                marginBottom: "8px",
+              }}
+            >
+              PRÓXIMAMENTE
+            </div>
 
-          <div
-            style={{
-              background: "#1F2937",
-              padding: "20px",
-              borderRadius: "12px",
-            }}
-          >
-            Impacto cuba 32m³: +384 €
+            <div
+              style={{
+                fontSize: "22px",
+                fontWeight: "700",
+              }}
+            >
+              Radar Oil Daily
+            </div>
           </div>
         </div>
       </div>
